@@ -24,7 +24,7 @@ async function fetchWeather() {
     }
 }
 
-// Function to send weather notifications
+// Function to send weather notification
 function setupWeatherMessages(bot, chatId) {
     if (!allowedChatIds.includes(chatId.toString())) {
         console.log(`chatId: ${chatId} is not allowed to receive weather updates`); // Log unauthorized chat ID

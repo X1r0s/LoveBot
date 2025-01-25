@@ -65,7 +65,7 @@ bot.onText(/\/start/, (msg) => {
     });
 });
 
-// Handler for buttons
+// Handler for button
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
 

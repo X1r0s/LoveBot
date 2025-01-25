@@ -10,7 +10,7 @@ const token = 'your_token_here'
 const bot = new TelegramBot(token, { polling: true })
 
 // Разрешённые chatId
-const allowedChatIds = ['yourGf_tg_id'] // From @myidbot in Telegram
+const allowedChatIds = ['yourGf_tg_id'] // Из @myidbot в телеграм
 
 // Проверка, разрешён ли chatId
 function isAllowed(chatId) {

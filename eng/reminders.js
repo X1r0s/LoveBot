@@ -23,7 +23,7 @@ function setupReminders(bot, chatId) {
         console.log(`Scheduling reminder: "${reminder.message}" for chatId: ${chatId} at ${reminder.time}`); // Log scheduled reminder
 
         cron.schedule(cronExpression, () => {
-            console.log(`Reminder triggered for chatId: ${chatId} at ${reminder.time}`); // Log reminder trigger
+            console.log(`Reminder triggered for chatId: ${chatId} at ${reminder.time}`); // Log reminder triggers
             bot.sendMessage(chatId, reminder.message)
                 .then(() => console.log(`Reminder successfully sent to chatId: ${chatId} at ${reminder.time}`)) // Log successful reminder send
                 .catch(error => console.error(`Error sending reminder to chatId: ${chatId} at ${reminder.time}`, error)); // Log error in sending reminder

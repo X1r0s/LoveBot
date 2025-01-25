@@ -3,7 +3,7 @@ const cron = require('node-cron') // Подключаем node-cron для пл�
 const TelegramBot = require('node-telegram-bot-api') 
 
 const weatherApiKey = 'your_weather_api' // Вставь свой API-ключ OpenWeatherMap
-const city = 'Kioto' // Укажи город
+const city = 'Kioto' // Ваш город
 const token = 'your_token' // Вставь токен от BotFather
 const bot = new TelegramBot(token, { polling: false }) // Создаём экземпляр бота
 

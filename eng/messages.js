@@ -1,4 +1,4 @@
-const loveMessages = [ // A list of messages from which a random one is sent after clicking a button. Get creative! 
+const loveMessages = [ // A list of messages from which a random one is sent after clicking a button, get creative! 
     `I love you!`,
     `Я тебя люблю!`,
     `ТJe t'aime!`,
